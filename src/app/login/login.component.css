@@ -1,0 +1,13 @@
+.table {
+  margin-top: 250px;
+  margin-left: 20%;
+  /* margin-right: 100px; */
+  border: none;
+}
+.login {
+  margin-left: 40%;
+}
+
+.table td {
+  border: none;
+}

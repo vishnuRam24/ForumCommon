@@ -1,0 +1,125 @@
+<div class="container main">
+
+  <div class="col-lg-12">
+
+    <img src="assets\login\images\download.png" class="rounded-circle" alt="Cinque Terre" width="80" height="80"><span
+      class="col-lg-2">Welcome user</span>
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <span class="right"><a routerLink="/logout">Logout</a></span>
+    <span class="right"><a routerLink="/home">Home</a></span>&nbsp;
+
+
+    <hr>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class=" col-md-2 formData">
+    <form [formGroup]="personalInfo">
+      <div>
+        <p>
+          <!-- <span>Name</span> -->
+          <input type="text" name="name" class="name" formControlName="name">
+        </p>
+      </div>
+      <div>
+        <p>
+          <!-- <span> Total No.of Questions Posted:</span> -->
+          <input type="text" name="name" class="totalQuestions" formControlName="totalQuestions">
+        </p>
+      </div>
+      <div>
+        <p>
+          <!-- <span> Interested Areas</span> -->
+          <input type="text" name="name" class="intareas" formControlName="interestedAreas">
+        </p>
+      </div>
+      <div>
+        <p>
+          <!-- <span> Following Communties:</span> -->
+          <input type="text" name="name" class="communities" formControlName="communitiesFollowed">
+        </p>
+      </div>
+      <div>
+        <p>
+          <!-- <span> Total no.of Answered Questions:</span> -->
+          <input type="text" name="name" class="answered" formControlName="totalAnswered">
+        </p>
+      </div>
+      <div>
+        <p>
+          <!-- <span> Skills:</span> -->
+          <input type="text" name="name" class="skills" formControlName="skills">
+        </p>
+      </div>
+      <div>
+        <p>
+          <!-- <span> Joined Year:</span> -->
+          <input type="text" name="name" class="joined" formControlName="joinedOn">
+        </p>
+      </div>
+      <div>
+        <p>
+          <!-- <span> Carrier:</span> -->
+          <input type="text" name="name" class="carrier" formControlName="carrier">
+        </p>
+      </div>
+    </form>
+  </div>
+  <!--  These will be generate Automatically based upon the types of communtiy they joined -->
+  <div class="col-md-2">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="assets\personal\java.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Java</h5>
+
+
+          <!-- we may send that view to only one page always by sending request with parameter of whatr type of data to be shown -->
+          <p class="card-text"><a routerLink="/javaView"> View</a></p>
+
+
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top image" src="assets\personal\angular.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Angular</h5>
+          <p class="card-text"><a routerLink="/angualrView">View</a></p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+           </div>
+       </div>
+    </div>
+
+  </div>
+<!--
+<button type="submit" (click)=callWelcome()></button> -->
+<!--
+   <div class="communitieSeperation col-md-10" *ngFor="let communities of communities">
+
+    <div class="col-md-2">
+      <div class="card-deck">
+        <div class="card" >
+          <img class="card-img-top"  src="assets\personal\java.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{communities}}</h5>
+ -->
+
+          <!-- we may send that view to only one page always by sending request with parameter of whatr type of data to be shown -->
+          <!-- <p class="card-text"><a routerLink="/javaView"> Goto {{communities}}</a></p> -->
+
+
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          <!-- </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+<!-- </div> -->

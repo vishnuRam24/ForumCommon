@@ -1,0 +1,76 @@
+/* Text Boxes
+
+.name {
+  margin-left: 236px;
+}
+.totalQuestions {
+  margin-left: 125px;
+}
+.intareas {
+  margin-left: 220px;
+}
+.communities {
+  margin-left: 170px;
+}
+.answered {
+  margin-left: 110px;
+}
+.skills {
+  margin-left: 300px;
+}
+.joined{
+  margin-left: 255px;
+}
+.carrier{
+  margin-left: 290px;
+}
+
+
+/* Background */
+/* .container{
+  background-image:url("src\assets\personal\images.jpg");
+} */
+
+/* span {
+  margin-left: 250px;
+}  */
+
+.formData {
+  display: inline-block;
+
+}
+
+.right {
+  float: right;
+}
+
+.vl{
+  border-left: 1px;
+  height: 570px;
+
+}
+
+input{
+  border-style: none;
+}
+
+/* Mat */
+.example-card{
+  width: 250px;
+  /* height: 100px; */
+}
+.card2{
+  padding-left: 230px;
+}
+
+.card1{
+  padding-left: 120px;
+}
+
+
+
+.image{
+  max-width: 130px;
+  align-content: center;
+
+}

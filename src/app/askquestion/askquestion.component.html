@@ -1,0 +1,14 @@
+<div class="container">
+  <form [formGroup]="askQuestion" (ngSubmit)=onSubmit()>
+Please Enter your Question Below:
+<p><textarea class="textarea" rows="4" cols="100" formControlName="question"></textarea></p>
+
+Keywords:
+<p><input type="text"name="keyword" formControlName="keywords"></p>
+
+Your Implementation/Error you faced:
+<p><textarea class="implementation" rows="15" cols="100" formControlName="implementation"></textarea></p>
+
+<button type="submit" class="btn btn-success">Post</button>
+</form>
+</div>
