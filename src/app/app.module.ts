@@ -27,6 +27,8 @@ import { MatloginComponent } from './material/matlogin/matlogin.component';
 import { MatSelectModule } from '@angular/material/select'
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { FakedbService } from './service/fakedb/fakedb.service';
+import { PostFilesComponent } from './post-files/post-files.component';
+import { DisplayFileComponent } from './display-file/display-file.component';
 
 
 
@@ -43,7 +45,8 @@ import { FakedbService } from './service/fakedb/fakedb.service';
     CardsWorkCheckComponent,
     FlexCheckComponent,
     MatloginComponent,
-
+    PostFilesComponent,
+    DisplayFileComponent
 
 
 

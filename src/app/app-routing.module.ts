@@ -10,6 +10,8 @@ import { AskquestionComponent } from './askquestion/askquestion.component';
 import { CardsWorkCheckComponent } from './cards-work-check/cards-work-check.component';
 import { FlexCheckComponent } from './flex/flex-check/flex-check.component';
 import { MatloginComponent } from './material/matlogin/matlogin.component';
+import { PostFilesComponent } from './post-files/post-files.component';
+import { DisplayFileComponent } from './display-file/display-file.component';
 
 
 
@@ -25,9 +27,11 @@ const routes: Routes = [
   { path: 'abcdef', component: CardsWorkCheckComponent },
   { path: 'flex', component: FlexCheckComponent },
   { path: 'mat-login', component: MatloginComponent },
+  
 
   // jack
-
+  { path: 'post-files', component: PostFilesComponent },
+  { path: 'display-files', component: DisplayFileComponent },
 
   { path: '**', component: ErrorComponent }
 

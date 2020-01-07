@@ -1,0 +1,19 @@
+<div class="container-fluid" class="center">
+    <form [formGroup]="postFileForm" (ngSubmit)="postFile()">
+            <div class="col-sm-3" style="font-size: 15pt;">
+                <label>Name</label>
+            <input type="text" formControlName="name">
+            </div>
+        <div class="row" style="margin: 10px;">
+            <div class="col-sm-3" style="font-size: 15pt;">
+                <input class="form-contol" type="radio" formControlName="fileKey" value=1>Image
+                <input class="form-contol" type="radio" formControlName="fileKey" value=2> Video
+            </div>
+
+            <input class="col-sm-4" id="image" type="file" accept="image,Video/*" (change)=insertFiles($event) style="margin: 10px;" />
+        </div>
+        <input type="submit" style="margin: 10px;">
+        <button (click)="displayFile()">Display Images/Videos</button>
+
+    </form>
+</div>

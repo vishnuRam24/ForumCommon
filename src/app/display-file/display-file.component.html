@@ -1,0 +1,16 @@
+<p>display-file works!</p>
+<div class="row">
+    <div *ngFor="let data of fileList;">
+        <div *ngIf="data.fileKey == 1">
+            <div class="container">
+                <div style="float: left;">
+                    <img [src]="fetchFile(data.imageOrVideo)" style="width: 300px; height: 300px;">
+                </div>
+            </div>
+        </div>
+        <div *ngIf="data.fileKey == 2">
+
+            <video controls [src]="fetchFile(data.imageOrVideo)" style="width: 300px; height: 300px;"></video>
+        </div>
+    </div>
+</div>
